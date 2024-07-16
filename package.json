@@ -15,6 +15,7 @@
     "@supabase/supabase-js": "^2.44.4",
     "@suspensive/react": "^2.6.2",
     "axios": "^1.7.2",
+    "daisyui": "^4.12.10",
     "next": "14.2.5",
     "next-auth": "^4.24.7",
     "react": "^18",
