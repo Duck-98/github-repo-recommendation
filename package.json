@@ -14,12 +14,15 @@
     "@octokit/rest": "^21.0.0",
     "@supabase/supabase-js": "^2.44.4",
     "@suspensive/react": "^2.6.2",
+    "@suspensive/react-query": "^2.9.0",
+    "@tanstack/react-query": "5",
     "axios": "^1.7.2",
     "daisyui": "^4.12.10",
     "next": "14.2.5",
     "next-auth": "^4.24.7",
     "react": "^18",
     "react-dom": "^18",
+    "react-icons": "^5.2.1",
     "supabase": "^1.183.5"
   },
   "devDependencies": {
