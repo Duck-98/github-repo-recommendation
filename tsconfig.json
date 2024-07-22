@@ -20,7 +20,8 @@
     "paths": {
       "@/*": ["./src/*"],
       "@lib/*": ["./src/lib/*"],
-      "@provider/*": ["./src/provider/*"]
+      "@provider/*": ["./src/provider/*"],
+      "@components/*": ["./src/components/*"]
     }
   },
   "include": [
