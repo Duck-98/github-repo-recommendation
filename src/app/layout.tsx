@@ -18,10 +18,24 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <AuthProvider>
-          <Providers>{children}</Providers>
-        </AuthProvider>
+      <body>
+        <div className="min-h-screen flex flex-col">
+          <header className="bg-gray-800 text-white p-4">
+            <div className="container mx-auto">
+              <h1 className="text-3xl font-bold">GRP</h1>
+            </div>
+          </header>
+          <main className="flex-grow">
+            <AuthProvider>
+              <Providers>{children}</Providers>
+            </AuthProvider>
+          </main>
+          <footer className="bg-gray-800 text-white p-4 text-center">
+            <div className="container mx-auto">
+              <p>&copy; 2024 GitHub Repo Recommender. All rights reserved.</p>
+            </div>
+          </footer>
+        </div>
       </body>
     </html>
   );
